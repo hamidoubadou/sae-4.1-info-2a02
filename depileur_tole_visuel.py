@@ -1,20 +1,3 @@
-# -*- coding: utf-8 -*-
-# =============================================================================
-# SAE 4.1 - Cartouches de gaz / Partie Informatique
-# Depileur automatique de toles : SIMULATION VISUELLE (Tkinter)
-#
-# Cycle reel (concept GSAG) reproduit a l'ecran :
-#   1) un chariot elevateur electrique maintient la pile a hauteur constante
-#   2) le verin pneumatique descend l'ensemble de prehension
-#   3) les ventouses saisissent la tole (controle du vide)
-#   4) le verin remonte
-#   5) le verin ROTATIF tourne le systeme de 180 degres (transfert)
-#   6) le verin descend et les ventouses lachent la tole (depose a 998 mm)
-#   7) le verin remonte
-#   8) le verin rotatif tourne de 180 degres en sens inverse (retour)
-#
-# Bibliotheque : Tkinter (incluse de base avec Python -> aucune installation).
-# Lancement : python depileur_tole_visuel.py
 # =============================================================================
 
 import tkinter as tk   # interface graphique standard de Python
